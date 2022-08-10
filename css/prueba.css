@@ -3,3 +3,7 @@ h1 {color:blueviolet}
 p span {color:gold}
 .destacada {color:coral}
 .fila {font-weight: bold;}
+.aviso {background-color: blue;}
+#gato{font-style: italic;}
+#perro{margin-top: 50px;}
+#tortuga{padding: 1em 2em 3em 4em;}
