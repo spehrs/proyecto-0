@@ -178,6 +178,54 @@ do {
 } while (resultado <3);
  console.log (resultado);
  document.write(resultado +" <br>");
+ let j=0;
+ do{
+j = j + 1;
+document.write(j +" <br>");
+continue;
+} while(j <6);
+let k=0
+do{
+k = k + 20;
+document.write(k +" <br>");
+if (k == 60) break;
+} while(k <90);
+let arreglo = [10, 11, 3, 20, 5];
+let mayorQueDiez = arreglo.filter(element => element > 10);
+console.log(mayorQueDiez);
+document.write(mayorQueDiez +" <br>");
+let existeElementoMayorQueDiez = arreglo.find(element => element > 10);
+console.log(existeElementoMayorQueDiez);
+document.write(existeElementoMayorQueDiez +" <br>");
+let incluyeVeinte = arreglo.includes(20);
+console.log(incluyeVeinte);
+document.write(incluyeVeinte +" <br>");
+let indiceDeTres = arreglo.indexOf(3);
+console.log(indiceDeTres);
+document.write(indiceDeTres +" <br>");
+let nummax = Math.max(1, 2, 3, 4);
+console.log(nummax);
+document.write(nummax +" <br>");
+let nummin = Math.min(1, 2, 3, 4);
+console.log(nummin);
+document.write(nummin +" <br>");
+let numax=Math.max.apply(null,arreglo);
+console.log(numax);
+document.write(numax +" <br>");
+let numin = Math.min.apply(null,arreglo);
+console.log(numin);
+document.write(numin +" <br>");
+
+var letters = ["a", "b", "c", "d", "f", "g", "h", "i", "j", "k", "l", "m", "n"];
+function sequentialSearch(g,letters){
+for (var l in array){
+  if (array[l] == "g") return l; 
+}
+return -1;
+}
+console.log(l);
+document.write(l +" <br>");
+
 </script>
 
 <script src="../yoprogramo/ensayos/js/jquery.js"></script>
