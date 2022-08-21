@@ -217,14 +217,31 @@ console.log(numin);
 document.write(numin +" <br>");
 
 var letters = ["a", "b", "c", "d", "f", "g", "h", "i", "j", "k", "l", "m", "n"];
-function sequentialSearch(g,letters){
-for (var l in array){
-  if (array[l] == "g") return l; 
-}
-return -1;
-}
-console.log(l);
-document.write(l +" <br>");
+function sequentialSearch (f, letters){
+for (var l =0;l < letters.length; l++){
+  if (letters[l] == "f") 
+  console.log(l);
+document.write(l +" <br>"); }
+} 
+console.log(-1);
+document.write(-1 +" <br>");
+sequentialSearch("f",letters);
+//-no da bien la busqueda secuencial
+
+const equipos = ['Real Madrid', 'Manchester Utd', 'Bayern Munich', 'Juventus'];
+equipos.sort(); 
+console.log(equipos);
+document.write(equipos +" <br>");
+
+var numbers = [4, 2, 5, 1, 3];
+numbers.sort(function(a, b) {
+  return a - b;
+  });
+console.log(numbers);
+document.write(numbers +" <br>");
+//para DOM
+var elementosP = document.getElementsByTagName("p");
+var otroelemento=document.getElementById("perro");
 
 </script>
 
